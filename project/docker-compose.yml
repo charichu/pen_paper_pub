@@ -16,7 +16,7 @@ services:
       - mongodb:/data/db
 
   pppauth:
-    image: charichu/pppauth:0.1.2
+    image: charichu/pppauth:0.1.4
     deploy:
       mode: replicated
       replicas: 1
